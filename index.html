@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tribal Task Tracker — tasks, habits and streaks for iPhone and iPad</title>
-  <meta name="description" content="Tribal Task Tracker helps you plan tasks and habits, set reminders, time your focus and keep your streak. Private by design: all data stays on your device.">
-  <meta property="og:title" content="Tribal Task Tracker">
-  <meta property="og:description" content="Plan tasks and habits, set reminders and keep your streak. All data stays on your device.">
-  <meta property="og:image" content="images/1-today.jpg">
+  <title>Habits Tracker — habits, to-dos and meditations for iPhone and iPad</title>
+  <meta name="description" content="Habits Tracker helps you build habits, plan to-dos and keep your meditations in one place. Reminders, focus timer, streaks and analytics. Private by design: all data stays on your device.">
+  <meta property="og:title" content="Habits Tracker">
+  <meta property="og:description" content="Build habits, plan to-dos and keep your meditations in one place. All data stays on your device.">
+  <meta property="og:image" content="images/en/1-home.jpg">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="ru" href="ru/index.html">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -15,12 +17,13 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="#top"><img src="images/icon.png" alt="">Tribal Task Tracker</a>
+      <a class="brand" href="#top"><img src="images/icon.png" alt=""><span>Habits Tracker</span></a>
       <nav class="nav">
         <a class="hide-sm" href="#features">Features</a>
         <a class="hide-sm" href="#screens">Screens</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="#contact">Contact</a>
+        <a class="hide-sm" href="privacy.html">Privacy</a>
+        <a class="hide-sm" href="#contact">Contact</a>
+        <div class="lang" aria-label="Language"><span aria-current="true">EN</span><a href="ru/index.html" hreflang="ru" lang="ru">RU</a></div>
       </nav>
     </div>
   </header>
@@ -29,13 +32,13 @@
     <section class="hero">
       <div class="wrap">
         <div>
-          <img class="hero-icon" src="images/icon.png" alt="Tribal Task Tracker app icon">
+          <img class="hero-icon" src="images/icon.png" alt="Habits Tracker app icon">
           <p class="eyebrow">For iPhone and iPad</p>
-          <h1>Your day, planned. Your habits, kept.</h1>
-          <p class="lead">Tribal Task Tracker helps you plan tasks and habits, set reminders, time your focus and keep your streak going — day by day.</p>
+          <h1>Small habits. Big results.</h1>
+          <p class="lead">Build habits that stick, keep your to-dos in check and gather your meditations, videos and documents in one calm place.</p>
           <div class="cta">
             <a class="button" href="https://apps.apple.com/app/id6837457190">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1zM5 19h14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2z"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1zM5 19h14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2z"/></svg>
               Download on the App Store
             </a>
             <a class="button secondary" href="#features">See features</a>
@@ -43,7 +46,7 @@
           <p class="meta">No account needed · Works offline · English and Russian</p>
         </div>
         <div class="hero-shot">
-          <img class="phone" src="images/1-today.jpg" alt="The Today screen showing morning, afternoon and evening tasks with progress" width="660" height="1434">
+          <img class="phone" src="images/en/1-home.jpg" alt="Home screen with the Habits banner, To-dos and Meditations tiles, and a daily quote" width="660" height="1434">
         </div>
       </div>
     </section>
@@ -51,39 +54,53 @@
     <section id="features">
       <div class="wrap">
         <div class="section-head">
-          <h2>Everything a routine needs</h2>
-          <p>Simple enough for one daily habit, flexible enough for a whole schedule.</p>
+          <h2>Three things, one app</h2>
+          <p>Everything your daily routine needs, without the clutter.</p>
+        </div>
+        <div class="pillars">
+          <div class="pillar main">
+            <h3>Habits</h3>
+            <p>Repeat on any schedule, set a daily goal and reminders, run a focus timer and keep your streak alive.</p>
+          </div>
+          <div class="pillar">
+            <h3>To-dos</h3>
+            <p>One-off things with a date and a comment. Check them off — overdue ones are easy to spot.</p>
+          </div>
+          <div class="pillar">
+            <h3>Meditations</h3>
+            <p>Named folders for your practices: videos, audio, PDFs, documents and links, ready to play.</p>
+          </div>
         </div>
         <div class="features">
           <div class="feature">
-            <div class="ico"><svg viewBox="0 0 24 24"><path d="M17 2l4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></div>
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M17 2l4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></div>
             <h3>Flexible repeats</h3>
             <p>Every day, chosen weekdays, dates of the month, every few days, or specific calendar dates.</p>
           </div>
           <div class="feature">
-            <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M9 2h6"/></svg></div>
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M9 2h6"/></svg></div>
             <h3>Focus timer</h3>
-            <p>Give a task a duration, press Start, and get a notification when the time is up.</p>
+            <p>Give a habit a duration, press Start, and get a notification when the time is up.</p>
           </div>
           <div class="feature">
-            <div class="ico"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
             <h3>Reminders</h3>
-            <p>Set one or more reminder times. They stop for the day as soon as the task is done.</p>
+            <p>One or more reminder times per habit. They stop for the day as soon as it's done.</p>
           </div>
           <div class="feature">
-            <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 22c4 0 7-3 7-7 0-3-2-5-3-7-1 2-2 3-3 3 0-3-1-6-4-9 0 4-4 7-4 13 0 4 3 7 7 7z"/></svg></div>
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 22c4 0 7-3 7-7 0-3-2-5-3-7-1 2-2 3-3 3 0-3-1-6-4-9 0 4-4 7-4 13 0 4 3 7 7 7z"/></svg></div>
             <h3>Streaks and goals</h3>
             <p>Build a day streak, set a goal like "8 times a day", and skip a day without losing track.</p>
           </div>
           <div class="feature">
-            <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15v3"/><path d="M12 10v8"/><path d="M17 6v12"/></svg></div>
-            <h3>Clear analytics</h3>
-            <p>Success rate for 7 and 30 days, focused time, top streaks and a 14-day chart.</p>
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg></div>
+            <h3>Content for each habit</h3>
+            <p>Add notes plus a video, PDF or any document — or a YouTube link — and open it while you practice.</p>
           </div>
           <div class="feature">
-            <div class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></svg></div>
-            <h3>Videos for your tasks</h3>
-            <p>Attach a YouTube link or a video from your iPhone — a workout, a lesson — and play it while you do the task.</p>
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15v3"/><path d="M12 10v8"/><path d="M17 6v12"/></svg></div>
+            <h3>Clear analytics</h3>
+            <p>Success rate for 7 and 30 days, focused time, top streaks and a 14-day chart.</p>
           </div>
         </div>
       </div>
@@ -92,15 +109,16 @@
     <section id="screens">
       <div class="wrap">
         <div class="section-head">
-          <h2>A calm, focused design</h2>
-          <p>Warm colors, clear progress, and nothing you don't need.</p>
+          <h2>Calm, lavender design</h2>
+          <p>Soft colors, clear progress, and nothing you don't need.</p>
         </div>
         <div class="shots">
-          <figure><img class="phone" src="images/1-today.jpg" alt="Today screen" loading="lazy" width="660" height="1434"><figcaption>Today at a glance</figcaption></figure>
-          <figure><img class="phone" src="images/2-planner.jpg" alt="Planner screen with a weekly calendar" loading="lazy" width="660" height="1434"><figcaption>Plan any day</figcaption></figure>
-          <figure><img class="phone" src="images/3-analytics.jpg" alt="Analytics screen with statistics and a chart" loading="lazy" width="660" height="1434"><figcaption>See your progress</figcaption></figure>
-          <figure><img class="phone" src="images/4-detail.jpg" alt="Task detail with a 34-day streak and a video button" loading="lazy" width="660" height="1434"><figcaption>Keep the streak</figcaption></figure>
-          <figure><img class="phone" src="images/5-editor.jpg" alt="Task editor with repeat, goal, duration, reminders and video" loading="lazy" width="660" height="1434"><figcaption>Set it up your way</figcaption></figure>
+          <figure><img class="phone" src="images/en/1-home.jpg" alt="Home screen" loading="lazy" width="660" height="1434"><figcaption>Everything at a glance</figcaption></figure>
+          <figure><img class="phone" src="images/en/2-habits.jpg" alt="Today's habits grouped by morning, afternoon and evening" loading="lazy" width="660" height="1434"><figcaption>Today's habits</figcaption></figure>
+          <figure><img class="phone" src="images/en/3-detail.jpg" alt="Habit detail with a 34-day streak and attached content" loading="lazy" width="660" height="1434"><figcaption>Keep the streak</figcaption></figure>
+          <figure><img class="phone" src="images/en/4-todos.jpg" alt="To-dos grouped into overdue, today, upcoming and completed" loading="lazy" width="660" height="1434"><figcaption>To-dos with dates</figcaption></figure>
+          <figure><img class="phone" src="images/en/5-meditations.jpg" alt="Meditation folder with a video, a PDF and a YouTube link" loading="lazy" width="660" height="1434"><figcaption>Meditation folders</figcaption></figure>
+          <figure><img class="phone" src="images/en/6-analytics.jpg" alt="Analytics with statistics and a chart" loading="lazy" width="660" height="1434"><figcaption>See your progress</figcaption></figure>
         </div>
       </div>
     </section>
@@ -109,11 +127,25 @@
       <div class="wrap ipad">
         <div>
           <p class="eyebrow">Also on iPad</p>
-          <h2>More room for your plans</h2>
-          <p>On iPad, statistics, your streak and the monthly calendar fit on one screen. Tap any day in the calendar to mark it done or undo it.</p>
+          <h2>Made for the big screen</h2>
+          <p>On iPad, your habits, to-dos and meditations sit side by side, and meditation folders open as a grid of cards.</p>
           <p>Requires iOS or iPadOS 26.5 or later.</p>
         </div>
-        <img class="tablet" src="images/ipad-detail.jpg" alt="Task detail on iPad with statistics and a monthly calendar" loading="lazy" width="1100" height="1467">
+        <img class="tablet" src="images/en/ipad-home.jpg" alt="Home screen on iPad" loading="lazy" width="1100" height="1467">
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>A little push every day</h2>
+        </div>
+        <div class="quote">
+          <blockquote>Spend each day trying to be a little wiser than you were when you woke up.</blockquote>
+          <cite>Charlie Munger</cite>
+          <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+        </div>
+        <p class="quote-note">Three fresh quotes a day from successful entrepreneurs — swipe through them on the home screen.</p>
       </div>
     </section>
 
@@ -121,7 +153,7 @@
       <div class="wrap">
         <div class="privacy-band">
           <h2>Private by design</h2>
-          <p>No account, no sign-up, no ads and no tracking. Your tasks, history and videos are stored only on your device and never sent to us.</p>
+          <p>No account, no sign-up, no ads and no tracking. Your habits, to-dos, notes and files are stored only on your device and never sent to us.</p>
           <a href="privacy.html">Read the privacy policy →</a>
         </div>
       </div>
@@ -140,8 +172,8 @@
 
   <footer>
     <div class="wrap">
-      <span>© 2026 Tribal Task Tracker</span>
-      <span><a href="privacy.html">Privacy Policy</a> · <a href="mailto:eluzgin@gmail.com">eluzgin@gmail.com</a></span>
+      <span>© 2026 Habits Tracker</span>
+      <span><a href="privacy.html">Privacy Policy</a> · <a href="ru/index.html" lang="ru">Русский</a> · <a href="mailto:eluzgin@gmail.com">eluzgin@gmail.com</a></span>
     </div>
   </footer>
 </body>
